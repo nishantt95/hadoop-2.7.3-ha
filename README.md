@@ -6,4 +6,5 @@ This is the hadoop configuration files for system HA
 192.168.100.54 slaver1  
 192.168.100.130 slaver2  
 
-#
+# cluster name
+mycluster
