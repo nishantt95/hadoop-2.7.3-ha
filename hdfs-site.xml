@@ -84,7 +84,10 @@
 
 <property>
 <name>dfs.ha.fencing.methods</name>
-<value>sshfence(root:22)</value>
+<value>
+sshfence
+shell(/bin/true)
+</value>
 </property>
 
 <property>
